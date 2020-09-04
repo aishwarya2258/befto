@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/uzen-fav.png">
+  <title>Uzen Farms</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <!---Start Header-->
+  <header class="fixed">
+    <div class="container">
+      <div class="row">
+        <div class="brand-name">
+          <a class="navbar-brand" href="#"><img src="assets/befto-logo.png" alt="befto" width="175px;"
+              height="45px;" /></a>
+        </div>
+        <div class="ham">
+          <i class="fa fa-bars"></i>
+        </div>
+        <div class="navbar p-0">
+          <ul>
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">Features</a></li>
+            <li><a href="#services">About</a></li>
+            <li><a href="#portfolio">Blog</a></li>
+            <li><a href="#blog">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li> <button class="btn btn-gradient my-2 my-sm-0 mx-3" type="submit" id="tour" onclick="toggle();">
+                <h5 class=" my-auto">
+                  <span class="spinner-grow spinner-grow-sm mr-1 mb-1"></span>
+                  Book a Tour
+                </h5>
+              </button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!---End Header-->
+
+  <!-- Thank You Page Start -->
+  <div class="jumbotron text-center p200">
+    <h1 class="display-3">Thank You for contacting us</h1>
+    <hr>
+    <p class="lead"><strong>Please check your WhatsApp for further updates.</strong></p>
+    <hr>
+    <p class="lead">
+      <a class="btn btn-success btn-lg btn-gradient" href="index">Click here, if you are not redirected in a few seconds
+      </a>
+    </p>
+    <h5> Redirecting in <span id="countdowntimer">5 </span> Seconds</h5>
+  </div>
+  <!-- Thank You Page End -->
+
+  <!-- Instagram Start -->
+  <section class="page-footer font-small pt-4 d-none">
+    <div class="container">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-12 mb-4">
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(78).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(79).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-12 mb-4">
+
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(81).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(82).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-2 col-md-6 mb-4">
+
+          <!--Image-->
+          <div class="view overlay z-depth-1-half">
+            <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(84).jpg" class="img-fluid"
+              alt="">
+            <a href="">
+              <div class="mask rgba-white-light"></div>
+            </a>
+          </div>
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+
+    </div>
+  </section>
+  <!-- Instagram Start -->
+  <!--Footer-->
+  <footer class="page-footer">
+    <hr>
+    <hr>
+    <div class="container-fluid  ">
+      <div class="row mx-0 mx-md-5 my-4">
+        <div class="col-xl-3 col-sm-12 ">
+          <div class="content1 m-auto footer_col1">
+            <div class="logo" style="width: 50%;">
+              <img src="assets/befto-logo.png" alt="" class="img-fluid">
+            </div>
+            <div class="misson pt-3">
+              <h5>Our Mission</h5>
+              <p class="font-weight-light">Shaping up an environment that connects varied talents under one roof and
+                empowering the powerful game-changers, forward thinkers to catch up to the sky.</p>
+            </div>
+            <div class="vision pt-2">
+              <h5>Vision</h5>
+              <p class="font-weight-light">Focusing on high-quality, continuous productivity, cost-efficiency, and
+                ensuring the deliverance of services in the right hands and help them lift their business forward.</p>
+            </div>
+            <div class="vertical d-none d-xl-block"></div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-sm-12 my-2">
+          <div class="row py-4 footer_col2">
+            <div class="content2 mx-auto ">
+              <h4 class="">Quick Links</h4>
+              <ul class="py-3">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+              <div class="content3 pr-5">
+                <ul class="pl-0">
+                  <li><a href="#"> <i class="fa fa-facebook" aria-hidden="true"></i> </a></li>
+                  <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="vertical d-none d-md-block"></div>
+          </div>
+        </div>
+        <div class="col-xl-5 col-sm-12 ">
+          <div class="card">
+            <div class="card-body">
+              <form>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input id="Full Name" name="Full Name" placeholder="Full Name" class="form-control" type="text">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <input id="Mobile No." name="Mobile No." placeholder="Mobile No." class="form-control"
+                      required="required" type="text">
+                  </div>
+                  <div class="form-group col-md-6">
+
+                    <select id="inputState" class="form-control">
+                      <option selected>Choose ...</option>
+                      <option> New Buyer</option>
+                      <option> Auction</option>
+                      <option> Complaint</option>
+                      <option> Feedback</option>
+                    </select>
+                  </div>
+                  <div class="form-group col-md-12">
+                    <textarea id="comment" name="comment" cols="40" rows="5" placeholder="Your Message"
+                      class="form-control"></textarea>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <button type="button" class="btn btn-danger btn-block btn-gradient">
+                    <h5 class="my-auto">Submit</h5>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Copyright-->
+    <div class="footer-copyright pt-4 pb-3 text-center">
+      <h6>
+        © 2020 Copyright:
+        <a href="https://befto.in" target="_blank" class="h6 text-white" style="text-decoration: none;">
+          Befto
+        </a>
+      </h6>
+    </div>
+    <!--/.Copyright-->
+  </footer>
+  <!--/.Footer-->
+
+  <script src="https://kit.fontawesome.com/66362f2c63.js" crossorigin="anonymous"></script>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
+    integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous">
+  </script>
+  <script src="js/owl.carousel.min.js"></script>
+
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+
+    // Scroll
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".navbar-fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+
+    // Timer
+    var timeleft = 5;
+    var downloadTimer = setInterval(function () {
+      timeleft--;
+      document.getElementById("countdowntimer").textContent = timeleft;
+      if (timeleft <= 0)
+        clearInterval(downloadTimer);
+    }, 500);
+
+    // Redirect to Homepage
+    window.onload = function () {
+      setTimeout(function () {
+        location.replace("index.html");
+      }, 100000); // wait 3 seconds
+    }
+  </script>
+</body>
+
+</html>
